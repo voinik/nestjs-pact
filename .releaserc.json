@@ -1,6 +1,6 @@
 {
   "branches": "master",
-  "repositoryUrl": "https://github.com/omermorad/nestjs-pact.git",
+  "repositoryUrl": "https://github.com/voinik/nestjs-pact.git",
   "debug": "true",
   "plugins": [
     "@semantic-release/commit-analyzer",
@@ -16,11 +16,7 @@
     [
       "@semantic-release/git",
       {
-        "assets": [
-          "package.json",
-          "package-lock.json",
-          "CHANGELOG.md"
-        ],
+        "assets": ["package.json", "package-lock.json", "CHANGELOG.md"],
         "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
       }
     ]

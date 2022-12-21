@@ -19,12 +19,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/omermorad/nestjs-pact.git"
+    "url": "https://github.com/voinik/nestjs-pact.git"
   },
   "bugs": {
-    "url": "https://github.com/omermorad/nestjs-pact/issues"
+    "url": "https://github.com/voinik/nestjs-pact/issues"
   },
-  "readme": "https://github.com/omermorad/nestjs-pact/README.md",
+  "readme": "https://github.com/voinik/nestjs-pact/README.md",
   "scripts": {
     "prebuild": "./node_modules/.bin/rimraf dist",
     "build": "tsc -p tsconfig.build.json",
