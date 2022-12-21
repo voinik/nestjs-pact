@@ -1,6 +1,6 @@
 {
   "name": "@voinik/nestjs-pact",
-  "version": "2.2.2",
+  "version": "2.2.3",
   "license": "MIT",
   "description": "Injectable Pact.js Consumer/Producer for NestJS",
   "keywords": [
